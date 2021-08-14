@@ -89,8 +89,8 @@ GameObject:
   - component: {fileID: 2885060061821576810}
   - component: {fileID: 5422473636874878397}
   - component: {fileID: 4199725018534116483}
-  - component: {fileID: -3000620938575057208}
-  - component: {fileID: 5589688487525740128}
+  - component: {fileID: -4409237354410776088}
+  - component: {fileID: 2208375828876915912}
   m_Layer: 5
   m_Name: PanelCard
   m_TagString: Untagged
@@ -224,7 +224,7 @@ MonoBehaviour:
   EBCount: 0
   EBAmpl: 0
   EBTime: 0
---- !u!198 &-3000620938575057208
+--- !u!198 &-4409237354410776088
 ParticleSystem:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -240,7 +240,7 @@ ParticleSystem:
   ringBufferLoopRange: {x: 0, y: 1}
   looping: 1
   prewarm: 0
-  playOnAwake: 0
+  playOnAwake: 1
   useUnscaledTime: 0
   autoRandomSeed: 1
   useRigidbodyForVelocity: 1
@@ -792,7 +792,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 15
+    maxNumParticles: 1000
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -851,15 +851,15 @@ ParticleSystem:
   ShapeModule:
     serializedVersion: 6
     enabled: 1
-    type: 19
+    type: 4
     angle: 25
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
     radiusThickness: 1
     donutRadius: 0.2
-    m_Position: {x: 11.85, y: 0, z: 0}
+    m_Position: {x: 0, y: 0, z: 0}
     m_Rotation: {x: 0, y: 0, z: 0}
-    m_Scale: {x: 38.8, y: 34.15, z: 1}
+    m_Scale: {x: 1, y: 1, z: 1}
     placementMode: 0
     m_MeshMaterialIndex: 0
     m_MeshNormalOffset: 0
@@ -922,12 +922,12 @@ ParticleSystem:
     m_Mesh: {fileID: 0}
     m_MeshRenderer: {fileID: 0}
     m_SkinnedMeshRenderer: {fileID: 0}
-    m_Sprite: {fileID: -349501769233167598, guid: 2664e370c1a87954a9d71034fac04c19, type: 3}
+    m_Sprite: {fileID: 0}
     m_SpriteRenderer: {fileID: 0}
     m_UseMeshMaterialIndex: 0
     m_UseMeshColors: 1
     alignToDirection: 0
-    m_Texture: {fileID: 2800000, guid: 2664e370c1a87954a9d71034fac04c19, type: 3}
+    m_Texture: {fileID: 0}
     m_TextureClipChannel: 3
     m_TextureClipThreshold: 0
     m_TextureUVChannel: 0
@@ -4930,7 +4930,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
---- !u!199 &5589688487525740128
+--- !u!199 &2208375828876915912
 ParticleSystemRenderer:
   serializedVersion: 6
   m_ObjectHideFlags: 0
