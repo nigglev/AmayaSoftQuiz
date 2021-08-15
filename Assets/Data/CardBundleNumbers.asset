@@ -37,3 +37,9 @@ MonoBehaviour:
   - _identifier: 8
     _sprite: {fileID: 3547489320769246608, guid: 36f5365a14683904ab6ed3a7b5031ca4, type: 3}
     _rotate_degree: -90
+  - _identifier: 9
+    _sprite: {fileID: -1155199509967091035, guid: 1299df4b74ba9204cb6f48d5f43170f0, type: 3}
+    _rotate_degree: 0
+  - _identifier: 10
+    _sprite: {fileID: 21300000, guid: f05c4886c60f8d74d98746ac4d862a0e, type: 3}
+    _rotate_degree: 0
