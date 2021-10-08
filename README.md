@@ -7,3 +7,6 @@
 
 
 ![QuizGameEasy](https://user-images.githubusercontent.com/17569293/136563190-5a0e8fc7-9c30-4372-9d47-495a3f457e2e.png)
+![QuizGameMedium](https://user-images.githubusercontent.com/17569293/136563378-5ec378b1-545d-4e0e-9130-483892045a86.png)
+![QuizGameHard](https://user-images.githubusercontent.com/17569293/136563391-34c1e04c-8814-49f2-8f3a-dfc8da00c98e.png)
+![QuizGameRestart](https://user-images.githubusercontent.com/17569293/136563397-653e74b1-f410-4402-9988-f52af098c077.png)
